@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: calculator
+Version: 1.0.0
+Summary: A simple calculator class for performing basic arithmetic operations
+Home-page: https://github.com/bondpapi/calculator
+Author: Michael Bond
+Author-email: bondpapi@yahoo.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Education
+Requires-Python: >=3.6
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
