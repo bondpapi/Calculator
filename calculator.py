@@ -4,21 +4,29 @@ class Calculator:
 
     def add(self, numb: float) -> float:
         """Add number to memory."""
+        if not isinstance(numb, (int, float)):
+            raise ValueError('Input has to be an integer or a float')
         self.memory += numb
         return self.memory
 
     def subtract(self, numb: float) -> float:
         """Subtract number from memory."""
+        if not isinstance(numb, (int, float)):
+            raise ValueError('Input has to be an integer or a float')
         self.memory -= numb
         return self.memory
 
     def multiply(self, numb: float) -> float:
         """Multiplies a number to memory."""
+        if not isinstance(numb, (int, float)):
+            raise ValueError('Input has to be an integer or a float')
         self.memory *= numb
         return self.memory
 
     def divide(self, numb: float) -> float:
         """Divides the memory by a number."""
+        if not isinstance(numb, (int, float)):
+            raise ValueError('Input has to be an integer or a float')
         if numb == 0:
             raise ValueError("Cannot Divide by Zero")
         self.memory /= numb
